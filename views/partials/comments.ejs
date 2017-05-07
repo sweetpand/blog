@@ -1,0 +1,8 @@
+<section class="comments">
+    <% entry.comments.forEach(comment => { %>
+        <div class="comment">
+            <p class="login"><%= comment.user.login %></p>
+            <p><%= comment.content %></p>
+        </div>
+    <% }) %>
+</section>

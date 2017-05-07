@@ -1,0 +1,24 @@
+body {
+    font: 16px arial, sans-serif;
+}
+
+.toolbar input[type="submit"] {
+    background: none!important;
+    color: blue;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.error {
+    padding: 1em;
+    border: 0.1em dashed red;
+    background-color: hsl(100, 100%, 90%);
+}
+
+.comment > .login {
+    font-weight: bold;
+}
+

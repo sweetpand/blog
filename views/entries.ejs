@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <% include partials/head %>
+    <body>
+        <main>
+            <% include partials/header %>
+            <% include partials/user-toolbar %>
+            <% include partials/error-box %>
+            <article>
+                <ul>
+                    <% for (let [id, entry] of Object.entries(entries)) { %>
+                        <li>
+                            <a href='/entry/<%= entry.id %>'><%= entry.title %></a>
+                        </li>
+                    <% } %>
+                </ul>
+            </article>
+            <% include partials/entries-toolbar %>
+            <% include partials/footer %>
+        </main>
+    </body>
+</html>
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <% include partials/head %>
+    <body>
+        <main>
+            <% include partials/header %>
+            <% include partials/user-toolbar %>
+            <% include partials/error-box %>
+            <% include partials/entry-toolbar %>
+            <article>
+                <h1><%= entry.title %></h1>
+                <p><%= entry.content %></p>
+            </article>
+            <% include partials/comments %>
+            <% include partials/comment-form %>
+            <% include partials/footer %>
+        </main>
+    </body>
+</html>
+

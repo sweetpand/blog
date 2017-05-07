@@ -1,0 +1,33 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog is a simple blog web application.",
+  "main": "blog.js",
+  "scripts": {
+    "start": "node blog.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toksaitov/blog.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Toksaitov Dmitrii Alexandrovich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toksaitov/blog/issues"
+  },
+  "homepage": "https://github.com/toksaitov/blog#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  }
+}
